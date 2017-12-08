@@ -71,7 +71,7 @@ int main() {
     char *str,**mat;
     int len, x;
     
-    scanf("%s",str);
+    scanf("%s",str); // input = WELCOMETOZOHOCORPORATION
     len = strlen(str);
     x = len % 5;
     len += (5-x);
